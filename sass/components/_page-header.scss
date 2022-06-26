@@ -60,7 +60,7 @@ margin-left: 50px;
         line-height: 1.14;
         letter-spacing: 0.02em;
         text-decoration: none;
-        color: var(--main-color-text);
+        color: $praimary-color-text;
         transition: color 250ms var(--cubic-bezier);
         &:hover,
         &:focus {
@@ -73,7 +73,4 @@ margin-left: 50px;
 .page-header__icon {
     margin-right: 10px;
         fill: currentColor;
-        &:hover {
-            fill: $accent-color;
-        }
 }
